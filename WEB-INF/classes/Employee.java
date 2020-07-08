@@ -4,7 +4,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.hibernate.validator.constraints.Email;
 
 
-public class Employee{
+public class Employee{ 
 	@NotEmpty
 	@Email
 	private String username;
